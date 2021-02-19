@@ -1,0 +1,12 @@
+{
+  "name": "azure-order-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.0.3"
+  }
+}
