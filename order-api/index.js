@@ -1,6 +1,6 @@
 const { ServiceBusClient } = require("@azure/service-bus");
 
-const serviceBusClient = new ServiceBusClient("Endpoint=sb://messagebroker-sachin.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=yO/0+9OdglEsq8ydshZYyJF+Cy3Ku2uXQpgenUfp1fI=");
+const serviceBusClient = new ServiceBusClient("Endpoint=sb://messagebroker-sachin.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=yO/0+9OdglEsq8ydshZYyJF+Cy3Ku2uXQpgenUfp1fI");
 const sender = serviceBusClient.createSender("hello");
 
 
